@@ -1,0 +1,174 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+/* Head Section style */
+
+.header{
+    display: flex;
+    margin: 50px 40px;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+}
+.logo h3{
+    font-weight: 10;
+    font-size: xx-large;
+}
+.nav{
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: 50;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+/* Mid Section Area */
+.mid{
+    margin: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.mid img{
+    width: 150px;
+    height: 80px;
+}
+.intro{
+    display: flex;
+    margin-top: 70px;
+}
+.name{
+    display: flex;
+    font-size: xx-large;
+    font-weight: 400;
+    width: 350px;
+    margin-right: 17%;
+}
+.para{
+    width: 447px;
+    display: flex;
+    align-items: flex-end;
+    font-size: larger;
+    font-weight: 50;
+    color: gray;
+}
+.arrow{
+    margin-top: 4%;
+
+}
+.arrow img{
+    width: 40px;
+    height: 40px;
+    margin-left: -15px;
+    margin-bottom: 4%;
+}
+.section{
+    display: flex;
+    margin-top: 30px;
+}
+.para1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.imge{
+    width: 50%;
+    height: 60%;
+    /* border: 2px solid black; */
+}
+.imge img{
+    width: 37em;
+    height: 19em;
+}
+
+.text{
+    margin-top: 30px;
+}
+.text p{
+    margin-top: 30px;
+    color:  gray;
+}
+.info{
+    margin-top: 135px;
+}
+.info a{
+    color: black;
+}
+.line{
+    display: block;
+    border: 2px solid gray;
+    margin-top: 50px;
+}
+.container{
+    margin: 50px 40px;
+    
+    /* border: 2px solid red; */
+}
+.side{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.right-side{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-side img{
+    width: 251px;
+    height: 420px;
+
+}
+.s-text h3{
+    margin-top: 50px;
+    color: gray;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.low-sec{
+    margin-top: 30px;
+    display: flex;
+}
+.low-sec h4{
+    width: 250px;
+}
+.low-sec h4 a{
+    color:  black;
+    margin-right: 31px;
+}
+.low-sec p{
+    width: 100%;
+}
+#name{
+ color: blue;
+}
+.up{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-s img{
+   position: absolute;
+   width: 23px;
+    
+}
+.right-s p{
+    margin-top: 25px;
+    color: gray;
+}
